@@ -2,8 +2,6 @@
 
 An AI agent that helps you find secondhand clothing and figure out how to actually wear it. Describe what you're looking for, and FitFindr searches a listings dataset, suggests outfit pairings from your existing wardrobe, and writes a shareable "fit card" caption for the look — all through a simple Gradio UI.
 
-Built as a course project for AI201, focused on designing an agent's tool use, planning loop, and state management from scratch.
-
 ## How it works
 
 FitFindr runs a straight-line planning loop (`agent.py::run_agent`) over three tools:
